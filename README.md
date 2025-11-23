@@ -1,16 +1,92 @@
-# React + Vite
+# 🎬 Movie Library — React + Vite + TMDB API
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A sleek and responsive movie browsing web app built with **React**, **Vite**, and the **TMDB API**.
+Search for movies, view details, and explore trending titles — all with a smooth and minimal UI.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 🚀 Features
 
-## React Compiler
+* 🔍 **Debounced Search** — avoids spam API calls for faster, cleaner results
+* 🧭 **Dynamic Routing** — view movie details on dedicated pages
+* ⚡ **Optimized API Fetching** — efficient requests using TMDB
+* 🎨 **Clean UI + Smooth Transitions**
+* 📱 **Fully Responsive** — works perfectly on all devices
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+---
 
-## Expanding the ESLint configuration
+## 🛠️ Tech Stack
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+**Frontend:** React, Vite, CSS
+**API:** TMDB API
+**Tools:** VS Code, Appwrite (optional backend usage)
+
+---
+
+## 📦 Installation
+
+Clone the project:
+
+```bash
+git clone https://github.com/reekk05/Movie_library.git
+```
+
+Enter the folder:
+
+```bash
+cd Movie_library
+```
+
+Install dependencies:
+
+```bash
+npm install
+```
+
+Run the dev server:
+
+```bash
+npm run dev
+```
+
+---
+
+## 🔑 Environment Setup
+
+Create a `.env` file in your project root and add:
+
+```
+VITE_TMDB_API_KEY=your_api_key_here
+```
+
+You can generate your API key from TMDB.
+
+---
+
+## 📁 Project Structure
+
+```
+my-first-react-app/
+├── public/
+├── src/
+│   ├── components/
+│   ├── hooks/
+│   ├── pages/
+│   ├── App.jsx
+│   ├── main.jsx
+│   └── index.css
+├── package.json
+└── vite.config.js
+```
+
+---
+
+## 🤝 Contributing
+
+Pull requests are welcome — just stay clean with your code 😎
+
+---
+
+## ⭐ Show Some Love
+
+Drop a ⭐ on the repo if you like the project!
