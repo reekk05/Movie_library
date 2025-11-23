@@ -69,10 +69,12 @@ You can generate your API key from TMDB.
 my-first-react-app/
 ├── public/
 ├── src/
+│   ├── assets/
 │   ├── components/
 │   ├── hooks/
-│   ├── pages/
+│   ├── App.css
 │   ├── App.jsx
+│   ├── appwrite.js
 │   ├── main.jsx
 │   └── index.css
 ├── package.json
